@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header id="top">
+        <p>Home</p>
+        <p>About us</p>
+        <p>Contact</p>
+        <p>Email</p>
+    </header>
+    <div id="container">
+        <h3>Best Quotes</h3>
+   <p id="quote-content"></p>
+   <button id="get-quote">Generate QUote</button>
+    </div>
+   <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+document.getElementById("get-quote").addEventListener("click",()=>{
+    fetch("https://api.kanye.rest")
+    .then(res => res.json())
+    .then(data=>{
+document.getElementById("quote-content").textContent = data.quote
+    })
+})
+document.getElementById("top").addEventListener("click",()=>{
+    alert("Error!Service not available")
+})
+document.getElementById("home").addEventListener("mouseover",()=>{
+    home.style.backgroundColor = "red"
+})
